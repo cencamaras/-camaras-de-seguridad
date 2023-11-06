@@ -1,0 +1,13 @@
+<div id="fecha">
+ <script language="JavaScript" type="text/JavaScript">
+ dows = new Array("Domingo","Lunes","Martes","Miércoles","Juev es","Viernes","Sábado");
+ months = new Array("enero","febrero","marzo","abril","mayo","ju nio","julio","agosto","septiembre","octubre","novi embre","diciembre");
+ now = new Date();
+ dow = now.getDay();
+ d = now.getDate();
+ m = now.getMonth();
+ h = now.getTime();
+ y = now.getYear();
+ document.write(dows[dow] + ", " + d + " de " + months[m] + " de " + y + ".");
+ </script>
+ </div>
